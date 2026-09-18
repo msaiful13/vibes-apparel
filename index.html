@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe's Apparels | Elevate Your Everyday Vibe</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">VIBE'S<span>.</span></a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Dynamic Currency Switcher Dropdown -->
+                <div class="currency-selector">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="currency-select" aria-label="Select Currency">
+                        <option value="MYR" selected>MYR (RM)</option>
+                        <option value="USD">USD ($)</option>
+                        <option value="SGD">SGD (S$)</option>
+                    </select>
+                </div>
+                
+                <button class="mobile-menu-btn" id="menu-toggle" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <span class="hero-badge">NEW STREETWEAR COLLECTION 2026</span>
+            <h1 class="hero-title">DEFY THE ORDINARY. <br>WEAR THE VIBE.</h1>
+            <p class="hero-subtitle">High-end contemporary streetwear designed for comfort, utility, and effortless style.</p>
+            <a href="#products" class="cta-button">Shop Collection <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- 2. About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container fade-in">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">OUR STORY</h2>
+                    <p class="about-narrative">
+                        Founded with a passion for urban modern aesthetics, <strong>Vibe's Apparels</strong> bridges the gap between raw street culture and refined contemporary fashion.
+                    </p>
+                    <div class="values-list">
+                        <div class="value-item">
+                            <i class="fa-solid fa-gem"></i>
+                            <div>
+                                <h4>Premium Craftsmanship</h4>
+                                <p>Heavyweight fabrics engineered for durability and ultimate comfort.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-leaf"></i>
+                            <div>
+                                <h4>Ethical & Sustainable</h4>
+                                <p>Sourced responsibly with eco-friendly dyes and zero-waste packaging.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stat-card">
+                    <div class="stat-content">
+                        <h3>100%</h3>
+                        <p>Authentic Streetwear Culture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Products Section -->
+    <section id="products" class="products-section">
+        <div class="container fade-in">
+            <div class="section-header">
+                <h2 class="section-title">FEATURED PRODUCTS</h2>
+                <p class="section-subtitle">Discover our latest drop crafted for all-day comfort.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1: T-Shirt -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Oversized Heavyweight Graphic Tee" class="product-img">
+                        <span class="product-tag">BESTSELLER</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">T-Shirt</span>
+                        <h3 class="product-title">Oversized Heavyweight Graphic Tee</h3>
+                        <p class="product-description">280 GSM premium combed cotton with a relaxed drop-shoulder streetwear fit.</p>
+                        <div class="product-bottom">
+                            <!-- Dynamic Currency Attribute -->
+                            <span class="product-price" data-price-myr="129.00">RM 129.00</span>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Pants -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=800&q=80" alt="Tactical Utility Cargo Pants" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Pants</span>
+                        <h3 class="product-title">Tactical Utility Cargo Pants</h3>
+                        <p class="product-description">Water-resistant ripstop fabric with multi-functional utility pockets and adjustable cuffs.</p>
+                        <div class="product-bottom">
+                            <!-- Dynamic Currency Attribute -->
+                            <span class="product-price" data-price-myr="219.00">RM 219.00</span>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Shoes -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Urban Vibe Low-Top Sneakers" class="product-img">
+                        <span class="product-tag new-tag">NEW DROP</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Shoes</span>
+                        <h3 class="product-title">Urban Vibe Low-Top Sneakers</h3>
+                        <p class="product-description">Genuine leather construction paired with a responsive cushioned rubber outsole.</p>
+                        <div class="product-bottom">
+                            <!-- Dynamic Currency Attribute -->
+                            <span class="product-price" data-price-myr="349.00">RM 349.00</span>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Contact & Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">VIBE'S<span>.</span></a>
+                    <p>Setting the standard for modern streetwear culture.</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p><i class="fa-solid fa-envelope"></i> support@vibesapparels.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +60 3-1234 5678</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Kuala Lumpur, Malaysia</p>
+                </div>
+
+                <div class="footer-socials">
+                    <h4>Follow Our Vibe</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vibe's Apparels. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
